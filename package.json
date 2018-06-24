@@ -1,0 +1,27 @@
+{
+    "name": "tv-series-v2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:piotrferens/tv-series-v2.git",
+    "author": "<piotrferens@outlook.com>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "bulma": "^0.7.1",
+        "mobx": "^5.0.3",
+        "mobx-react": "^5.2.3",
+        "next": "^6.0.3",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    },
+    "scripts": {
+        "dev": "next src",
+        "build": "next build",
+        "start": "next start"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-decorators": "^6.24.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.5"
+    }
+}
